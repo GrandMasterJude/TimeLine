@@ -1,0 +1,7 @@
+﻿CREATE TABLE [Person]
+(
+	[Id] INT Identity(1,1) NOT NULL PRIMARY KEY, 
+    [Name] NVARCHAR(200) NOT NULL, 
+    [DOB] NVARCHAR(100) NULL, 
+    [DOD] NVARCHAR(100) NULL 
+)
