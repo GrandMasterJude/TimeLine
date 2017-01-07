@@ -1,1 +1,0 @@
-﻿CREATE Fulltext catalog My_Fulltext_Catalog
