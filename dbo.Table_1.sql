@@ -1,6 +1,0 @@
-﻿CREATE TABLE [Style]
-(
-	[Id] INT NOT NULL PRIMARY KEY, 
-    [Style] NVARCHAR(50) NULL, 
-    CONSTRAINT [FK_Style_Person] FOREIGN KEY ([Id]) REFERENCES [Person]([Id])
-)
